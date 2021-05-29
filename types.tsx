@@ -4,14 +4,16 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  'Bidding': undefined;
+  'My Account': undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  BiddingScreen: undefined;
 };
 
 export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+  MyAccountScreen: undefined;
+  MatchHighlight: undefined;
+  SelectPicture: undefined;
 };

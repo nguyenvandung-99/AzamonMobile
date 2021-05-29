@@ -6,14 +6,15 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          'Bidding': {
             screens: {
-              TabOneScreen: 'one',
+              BiddingScreen: 'bidding',
             },
           },
-          TabTwo: {
+          'My Account': {
             screens: {
-              TabTwoScreen: 'two',
+              MyAccountScreen: 'myaccount',
+              MatchHighlight: 'myaccount/matchhighlight',
             },
           },
         },
